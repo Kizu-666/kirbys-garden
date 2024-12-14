@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Kirby's Garden | Landscaping Services Philippines</title>
     <link rel="icon" href="Logos/kgLogo1.png">
-    <meta name="description" content="Kirby's Garden offers professional landscaping services to transform your outdoor spaces in the Philippines. Contact us for creative solutions and exceptional quality.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="indexStyle.css">
+    <meta name="description" content="Kirby's Garden offers professional landscaping services to transform your outdoor spaces in the Philippines. Contact us for creative solutions and exceptional quality.">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/about-us/aboutStyle.css">
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -48,7 +47,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="landscaping-services.html">Services</a></li>
                 <li><a href="featured-projects.html">Featured Projects</a></li>
-                <li><a href="about-us/">About</a></li>
+                <li><a href="about-us.html">About</a></li>
                 <li><a href="request-quote.html">Request A Quote</a></li>
             </ul>
         </nav>
@@ -56,11 +55,38 @@
         <a class="cta" href="#" onclick="openModal()"><button>Contact</button></a>
     </header>
 
-    <div class="content">
+    <div class="contentAbout">
         <img class="logoBody" src="Logos/kgLogo2.png" alt="Kirby's Garden Landscaping Logo">
-        <h1>Welcome to <br>KIRBY'S GARDEN</h1>
-        <p class="par">"Think creative landscaping. Think us, with our landscaping. There’s always hope and scope.”</p>
-        <a class="cn" href="landscaping-services.html"><button>Explore</button></a>
+        <h1>KIRBY'S GARDEN</h1>
+        <p class="history">Established in Bulacan since 2014</p>
+    </div>
+
+    <div class="VisionMissionContainer">
+        <div class="Vision">
+            <h1>Vision</h1>
+            <p>“To become a market leader in indoor/outdoor plant maintenance and landscape services by provision of
+                quality products and pursuing excellent customer satisfaction.”</p>
+        </div>
+        <div class="Mision">
+            <h1>Mission</h1>
+            <p>Our mission is to help, improve and protect client’s property values by providing professional landscape
+                design, installation and maintenance using environmental practices and delivering these services at a
+                competitive rate. Through an energetic, dedicated and creative approach. We are inspired to provide our
+                service with integrity while promoting a gainfully employed staff.</p>
+        </div>
+    </div>
+    <div class="OwnersContainer">
+        <h2>Owners</h2>
+        <div class="OwnersImages">
+            <div class="OwnerImage">
+                <img src="Logos/he.jpg" alt="Bernard Martinez Malit">
+                <p>Bernard Martinez Malit</p>
+            </div>
+            <div class="OwnerImage">
+                <img src="Logos/she.jpg" alt="Sherwin Zuño Malit">
+                <p>Sherwin Zuño Malit</p>
+            </div>
+        </div>
     </div>
 
     <div id="contactModal" class="modal">
@@ -104,7 +130,7 @@
             navLinks.classList.toggle("active");
             hamburger.classList.toggle("active");
         });
-        
+
         document.addEventListener("click", (event) => {
             const isClickInsideHamburger = hamburger.contains(event.target);
             const isClickInsideNavLinks = navLinks.contains(event.target);
@@ -115,11 +141,11 @@
             }
         });
     </script>
-
     <footer>
         <div class="footer-content">
             <p>&copy; 2024 Kirby's Garden. All rights reserved.</p>
         </div>
     </footer>
 </body>
+
 </html>
