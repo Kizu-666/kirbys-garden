@@ -259,7 +259,7 @@ button:hover {
     border-radius: 2px;
 }
 
-@media (max-width: 1255px) {
+@media (max-width: 1270px) {
     .modal {
         z-index: 999;
     }
